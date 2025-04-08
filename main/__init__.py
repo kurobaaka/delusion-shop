@@ -57,7 +57,7 @@ def create_app():
     db.init_app(app)
     app.config['UPLOADED_PHOTOS_DEST'] = os.path.join(basedir, 'static/images')
 
-    admin = Admin(app, name='FRANCHISE BRAND ADMIN', index_view=MyAdminIndexView())
+    admin = Admin(app, name='DELUSION BRAND ADMIN', index_view=MyAdminIndexView())
 
     photos = UploadSet('photos', IMAGES)
     configure_uploads(app, photos)
