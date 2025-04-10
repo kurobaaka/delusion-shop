@@ -57,7 +57,7 @@ function displayCart() {
     });
     cartSubmit.innerHTML = `
         <div class="total-price">Subtotal: ${cartCost} р.</div>
-        <button type="button" class="btn-buy">CHECK-OUT</button>    
+        <button type="button" class="btn-buy">CHECK-OUT</button>
     `;
 }
 
