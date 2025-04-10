@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 :root {
-    --pink-color: #E898FF;
+    --pink-color: #000000;
     --black-color: #000000;
     --white-color: #FFFFFF;
 
@@ -100,7 +100,7 @@ header {
     padding: 10px 80px;
     z-index: 99;
     background-color: hsl(0 0% 100% / 0.8);
-    box-shadow: 0px 2px 30px rgba(232, 152, 255, 0.7);
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.7);
     transition: top 0.3s ease-in-out;
 }
 
@@ -206,7 +206,7 @@ nav a:hover {
     width: 30vw;
     background: hsl(0 0% 100% / 0.8);
     transition: right 0.2s ease-in-out;
-    box-shadow: 0px 2px 30px rgba(232, 152, 255, 0.7);
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
     justify-content: center;

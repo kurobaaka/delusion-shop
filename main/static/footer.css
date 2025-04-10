@@ -1,5 +1,5 @@
 :root {
-    --pink-color: #E898FF;
+    --pink-color: #000000;
     --black-color: #000000;
     --white-color: #FFFFFF;
 
@@ -15,7 +15,7 @@ footer {
 }
 
 .footer-content {
-    background-color: #E898FF;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@ footer {
 
 .footer-bottom {
     background-color: #FFFFFF;
-    color: #E898FF;
+    color: #000000;
     padding: 20px 0;
     text-align: center;
     display: flex;

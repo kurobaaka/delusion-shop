@@ -52,6 +52,30 @@ def login():
             flash('User doesn\'t exist.', category='error')
     return render_template('login.html', user=current_user)
 
+# @auth.route('/login', methods=['GET', 'POST'])
+# def login():
+#     if request.method == 'POST':
+#         email = request.form.get('email')
+#         password = request.form.get('password')
+#         remember_me = request.form.get('remember_me')
+#         user = User.query.filter_by(email=email).first()
+
+#         # Добавляем условие: если пользователь существует, то пропускаем его,
+#         # даже если пароль неверный.
+#         if user:
+#             # Убираем проверку пароля (check_password_hash)
+#             # и всегда считаем, что вход успешен.
+#             if remember_me:
+#                 session.permanent = True
+#             session['email'] = email
+#             flash('Logged in successfully (debug mode).', category='success')
+#             login_user(user, remember=True)
+#             return redirect(url_for('views.home_page'))
+#         else:
+#             # Если пользователь не существует, выводим сообщение об ошибке.
+#             flash('User doesn\'t exist.', category='error')
+
+#     return render_template('login.html', user=current_user)
 
 @auth.route('/logout')
 @login_required
